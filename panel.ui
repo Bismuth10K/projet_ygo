@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1193</width>
+    <height>668</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <layout class="QGridLayout" name="gridLayout_2">
+      <item row="2" column="2">
+       <widget class="QLabel" name="label_3">
+        <property name="text">
+         <string>Type monstre</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QComboBox" name="comboBox">
+        <item>
+         <property name="text">
+          <string>--</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>DIVIN</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Attributs_icon/DIVINE.png</normaloff>Attributs_icon/DIVINE.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>EAU</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Attributs_icon/WATER.png</normaloff>Attributs_icon/WATER.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>FEU</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Attributs_icon/FIRE.png</normaloff>Attributs_icon/FIRE.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>LUMIÈRE</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Attributs_icon/LIGHT.png</normaloff>Attributs_icon/LIGHT.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>TÉNÈBRES</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Attributs_icon/DARK.png</normaloff>Attributs_icon/DARK.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>TERRE</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Attributs_icon/EARTH.png</normaloff>Attributs_icon/EARTH.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>VENT</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Attributs_icon/WIND.png</normaloff>Attributs_icon/WIND.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>MAGIE</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Attributs_icon/SPELL.png</normaloff>Attributs_icon/SPELL.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>PIÈGE</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Attributs_icon/TRAP.png</normaloff>Attributs_icon/TRAP.png</iconset>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QComboBox" name="comboBox_2">
+        <item>
+         <property name="text">
+          <string>--</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>CONTINU</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Spell-Traps_icon/Continuous.png</normaloff>Spell-Traps_icon/Continuous.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>CONTRE</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Spell-Traps_icon/Counter.png</normaloff>Spell-Traps_icon/Counter.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>ÉQUIPEMENT</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Spell-Traps_icon/Equip.png</normaloff>Spell-Traps_icon/Equip.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>JEU RAPIDE</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Spell-Traps_icon/Quick-Play.png</normaloff>Spell-Traps_icon/Quick-Play.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>NORMALE</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Spell-Traps_icon/Normal.png</normaloff>Spell-Traps_icon/Normal.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>RITUEL</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Spell-Traps_icon/Ritual.png</normaloff>Spell-Traps_icon/Ritual.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>TERRAIN</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Spell-Traps_icon/Field.png</normaloff>Spell-Traps_icon/Field.png</iconset>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Attribut</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QComboBox" name="comboBox_3">
+        <item>
+         <property name="text">
+          <string>--</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Aqua</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Aqua-MD.png</normaloff>Type_monsters/Aqua-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bête</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Beast-MD.png</normaloff>Type_monsters/Beast-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bête Ailée</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Winged_Beast-MD.png</normaloff>Type_monsters/Winged_Beast-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bête Divine</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Divine-Beast-MD.png</normaloff>Type_monsters/Divine-Beast-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Bête-Guerrier</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Beast-Warrior-MD.png</normaloff>Type_monsters/Beast-Warrior-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Cyberse</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Cyberse-MD.png</normaloff>Type_monsters/Cyberse-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Démon</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Fiend-MD.png</normaloff>Type_monsters/Fiend-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dinosaure</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Dinosaur-MD.png</normaloff>Type_monsters/Dinosaur-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Dragon</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Dragon-MD.png</normaloff>Type_monsters/Dragon-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Elfe</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Fairy-MD.png</normaloff>Type_monsters/Fairy-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Guerrier</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Warrior-MD.png</normaloff>Type_monsters/Warrior-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Insecte</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Insect-MD.png</normaloff>Type_monsters/Insect-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Machine</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Machine-MD.png</normaloff>Type_monsters/Machine-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Magicien</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Spellcaster-MD.png</normaloff>Type_monsters/Spellcaster-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Plante</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Plant-MD.png</normaloff>Type_monsters/Plant-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Poisson</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Fish-MD.png</normaloff>Type_monsters/Fish-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Psychique</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Psychic-MD.png</normaloff>Type_monsters/Psychic-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Pyro</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Pyro-MD.png</normaloff>Type_monsters/Pyro-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Reptile</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Reptile-MD.png</normaloff>Type_monsters/Reptile-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Rocher</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Rock-MD.png</normaloff>Type_monsters/Rock-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Serpent de Mer</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Sea_Serpent-MD.png</normaloff>Type_monsters/Sea_Serpent-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Tonnerre</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Thunder-MD.png</normaloff>Type_monsters/Thunder-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Wyrm</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Wyrm-MD.png</normaloff>Type_monsters/Wyrm-MD.png</iconset>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Zombie</string>
+         </property>
+         <property name="icon">
+          <iconset>
+           <normaloff>Type_monsters/Zombie-MD.png</normaloff>Type_monsters/Zombie-MD.png</iconset>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Type carte</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="2">
+       <widget class="QLabel" name="label_6">
+        <property name="text">
+         <string>Niveau Pendule</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="0">
+       <widget class="QLabel" name="label_7">
+        <property name="text">
+         <string>Niveau Lien</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="2">
+       <widget class="QLabel" name="label_8">
+        <property name="text">
+         <string>Marqueurs Lien</string>
+        </property>
+       </widget>
+      </item>
+      <item row="4" column="0">
+       <widget class="QLabel" name="label_5">
+        <property name="text">
+         <string>Niveau</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QComboBox" name="comboBox_4">
+        <item>
+         <property name="text">
+          <string>--</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Normal</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Effet</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Rituel</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Fusion</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Synchro</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Xyz</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Toon</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Spirit</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Union</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Union</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Gémeau</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Syntoniseur</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Flip</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Pendule</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>Lien</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Icône</string>
+        </property>
+       </widget>
+      </item>
+      <item row="5" column="3">
+       <layout class="QGridLayout" name="gridLayout_4"/>
+      </item>
+      <item row="4" column="1">
+       <widget class="QComboBox" name="comboBox_5">
+        <item>
+         <property name="text">
+          <string>--</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>9</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>11</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="5" column="1">
+       <widget class="QComboBox" name="comboBox_7">
+        <item>
+         <property name="text">
+          <string>--</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+      <item row="4" column="3">
+       <widget class="QComboBox" name="comboBox_6">
+        <item>
+         <property name="text">
+          <string>--</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>0</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>1</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>2</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>3</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>4</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>5</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>6</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>7</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>8</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>9</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>10</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>11</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>12</string>
+         </property>
+        </item>
+        <item>
+         <property name="text">
+          <string>13</string>
+         </property>
+        </item>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1193</width>
+     <height>24</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menufile">
+    <property name="title">
+     <string>file</string>
+    </property>
+    <addaction name="actionexit"/>
+   </widget>
+   <addaction name="menufile"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionexit">
+   <property name="text">
+    <string>exit</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
